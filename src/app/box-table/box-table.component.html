@@ -1,0 +1,35 @@
+<!-- Aqui nesse componente é a tabela populada pela API 
+    (api fake que eu criei só pra mockar os resultados, no projeto real, 
+    o banco vai fornecer uma api verdadeira que vai trazer um resultado muito maior).
+A tabela ficará oculta, só vai ser apresentada após alguma pesquisa nos inputs de busca.
+Imaginando que a API tem n resultados, a tabela só vai exibir os resultados que contém o conteúdo da busca -->
+<div *ngIf="tabela">
+    <table>
+        <thead>
+            <tr>
+                <th class="celula">Operação</th>
+                <th class="celula">Conta</th>
+                <th class="celula">CPF/CNPJ</th>
+                <th class="celula">Produto</th>
+                <th class="celula">Canal</th>
+                <th class="celula">Valor</th>
+                <th class="celula">Contratação</th>
+                <th class="celula">Situação</th>
+                <th class="celula">Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let info of tabela?.operacoes | search : words;">
+                <td>{{info?.operacao}}</td>
+                <td>{{info?.conta}}</td>
+                <td>{{info?.cpf}}</td>
+                <td>{{info?.produto}}</td>
+                <td>{{info?.canal}}</td>
+                <td>{{info?.valor}}</td>
+                <td>{{info?.contratacao}}</td>
+                <td>{{info?.situacao}}</td>
+                <td>detalhes</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

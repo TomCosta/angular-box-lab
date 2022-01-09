@@ -1,0 +1,34 @@
+<table>
+    <thead>
+        <tr>
+<div class="row">
+    <div class="col text-center">
+        <br>
+        <form [formGroup]="buscaForm">
+            <div class="procurar">
+                <input type="text" placeholder="código do cliente" formControlName="codigoCliente"
+                    (click)="focusCampo('codigoCliente')"><!--  (blur)="habilitarCampos()" -->
+                <button>Procurar</button>
+                <!-- [buscar]="'codigoCliente'" -->
+
+                <input type="text" placeholder="número da operação" formControlName="numeroOperacao"
+                    (click)="focusCampo('numeroOperacao')"><!--  (blur)="habilitarCampos()" -->
+                <button>Procurar</button>
+                <!-- [buscar]="'numeroOperacao'" -->
+
+                <input type="text" placeholder="informações da conta" formControlName="infosConta"
+                    (click)="focusCampo('infosConta')"><!--  (blur)="habilitarCampos()" -->
+                <button>Procurar</button>
+                <!--  [buscar]="'infosConta'" -->
+                
+                <button type="button" (click)="habilitarCampos()">Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
+</tr>
+</thead>
+</table>
+<br>
+
+<app-box-table [tabela]="infosTabela" [fields]="buscaFields" [words]="buscaWord"></app-box-table>

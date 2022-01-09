@@ -1,4 +1,42 @@
-# AngularBox
+# AngularBox - Laboratório de Angular
+
+![TOM'SYS](/src/assets/imgs/angular-logo.png)
+
+## Aplicação Angular para servir de Laboratório e estudos aplicados
+Projeto gerado usando [Angular CLI](https://github.com/angular/angular-cli) versão 12.0.4
+[Node.JS](https://nodejs.org/en/download/)
+version 14.16.0
+
+![version][version-badge] ![Idioma][idioma] ![status][status-emprogresso]
+### Para rodar este projeto:
+#### Clone o repositório com o comando
+```javascript
+$ git clone https://github.com/TomCosta/angular-box-lab.git
+``` 
+#### Vá para a pasta do projeto
+```javascript
+$ cd angular-box
+``` 
+### Instale as dependencias
+```bash
+$ npm install
+```
+### Rode localmente e abra no browser
+```bash
+$ ng s -o
+```
+### ------------------------------------------------------------------
+
+## Se você não tiver o Angular instalado
+
+### Comando para instalar usando Angular CLI:
+
+Use o comando a sequir:
+
+```bash
+$ npm install -g @angular/cli
+```
+### ------------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
@@ -25,3 +63,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+#
+[_By TOM'SYS_](https://tomsys.page/)
+
+[CHANGELOG]: ./CHANGELOG.md
+[version-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[status-emprogresso]: https://img.shields.io/badge/status-Em%20progresso-blueviolet
+[idioma]: https://img.shields.io/badge/idioma-Portugu%C3%AAs-800060

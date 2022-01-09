@@ -1,0 +1,106 @@
+{
+  "data": {
+    "operacoes": [
+      {
+        "operacao": "1000000000",
+        "conta": "123456",
+        "cpf": "977888888",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$100",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1100000000",
+        "conta": "123456",
+        "cpf": "1116543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$200",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1200000000",
+        "conta": "123456",
+        "cpf": "55576543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$300",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1230000000",
+        "conta": "123456",
+        "cpf": "66676543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$400",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1234000000",
+        "conta": "123456",
+        "cpf": "77776543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$500",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1234500000",
+        "conta": "123456",
+        "cpf": "977888888",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$100",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1234560000",
+        "conta": "123456",
+        "cpf": "1116543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$200",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1234567000",
+        "conta": "123456",
+        "cpf": "55576543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$300",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1234567800",
+        "conta": "123456",
+        "cpf": "66676543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$400",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      },
+      {
+        "operacao": "1234567890",
+        "conta": "123456",
+        "cpf": "77776543812",
+        "produto": "empréstimo",
+        "canal": "atendimento",
+        "valor": "R$500",
+        "contratacao": "12/10/2020",
+        "situacao": "ativa"
+      }
+    ]
+  }
+}
