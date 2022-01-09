@@ -11,7 +11,7 @@ version 14.16.0
 ### Para rodar este projeto:
 #### Clone o repositório com o comando
 ```javascript
-$ git clone https://github.com/TomCosta/angular-box-lab.git
+$ git clone git@github.com:TomCosta/angular-box-lab.git
 ``` 
 #### Vá para a pasta do projeto
 ```javascript
